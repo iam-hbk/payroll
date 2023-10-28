@@ -1,13 +1,35 @@
-# Visual Studio files
-.vscode/
-*.suo
+# Binary and intermediate files
+*.dll
+*.exe
+*.pdb
+*.obj
+*.bin
+*.out
+*.o
+
+# Package directories
+packages/
+node_modules/
+
+# Build output directories
+bin/
+obj/
+
+# User-specific files
+*.rsuser
 *.user
 *.userosscache
-*.sln.docstates
+*.suo
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+
+# Mono Auto Generated Files
+mono_crash.*
 
 # Windows image file caches
 Thumbs.db
-ehthumbs.db
 
 # Folder config file
 Desktop.ini
@@ -26,49 +48,24 @@ $RECYCLE.BIN/
 
 # JetBrains Rider
 .idea/
+*.sln.iml
 
 # User-specific files
-*.suo
+*.rsuser
 *.user
 *.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
 *.suo
-*.user
-*.userosscache
-*.sln.docstates
+*.userprefs
+*.pidb
+*.booproj
+*.svd
 
 # Mono Auto Generated Files
 mono_crash.*
 
 # Windows image file caches
 Thumbs.db
-ehthumbs.db
+Thumbs.db:encryptable
 
 # Folder config file
 Desktop.ini
@@ -76,9 +73,6 @@ Desktop.ini
 # Recycle Bin used on file shares
 $RECYCLE.BIN/
 
-# VS Code directories
-.vscode/
-
 # Windows Installer files
 *.cab
 *.msi
@@ -90,80 +84,7 @@ $RECYCLE.BIN/
 
 # JetBrains Rider
 .idea/
+*.sln.iml
 
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# VS Code directories
-.vscode/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
-
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
-
-# Folder config file
-Desktop.ini
-
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
-
-# VS Code directories
-.vscode/
-
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
-
-# Windows shortcuts
-*.lnk
-
-# JetBrains Rider
-.idea/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
-# Mono Auto Generated Files
-mono_crash.*
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
